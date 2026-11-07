@@ -4,8 +4,8 @@
 #
 #   scripts/fpc-setup.sh            build the compiler for this host and the cross compilers build/toolchain lists
 #   scripts/fpc-setup.sh --print    print the folder the toolchain is (or would be) installed in, and stop
-#   scripts/fpc-setup.sh --pack DIR set up as usual, then pack the installation into DIR as goldbox-toolchain
-#                                   publishes it (scripts/toolchain-release.sh)
+#   scripts/fpc-setup.sh --pack DIR set up as usual, then pack the installation into DIR as the talonius/fpc fork's
+#                                   goldbox release publishes it (scripts/toolchain-release.sh)
 #
 # build/toolchain specifies the source branch and commit, plus the released compiler used to bootstrap it, and the
 # recipe (recipe=N), the revision of how this script builds them. The result is installed under
