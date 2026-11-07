@@ -1,0 +1,4 @@
+# The pins goldbox builds, in the format of Pool of Radiance's build/toolchain.
+fpc=fixes_3_2@c118291bbde00708229f10f653ca2f4a506292e0
+fpc_bootstrap=3.2.2
+recipe=1
